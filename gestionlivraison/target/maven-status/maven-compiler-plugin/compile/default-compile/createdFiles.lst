@@ -1,0 +1,5 @@
+com\projet\gestionlivraison\Entities\Livraison.class
+com\projet\gestionlivraison\Repository\LivraisonRepository.class
+com\projet\gestionlivraison\Controlleur\LivraisonController.class
+com\projet\gestionlivraison\GestionlivraisonApplication.class
+com\projet\gestionlivraison\Service\LivraisonService.class

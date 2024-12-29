@@ -1,0 +1,25 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+      defaultZone: http://Localhost:8761/eureka
+server:
+  port: 8070
+spring:
+  application:
+    name: gestionlivraison
+  config:
+    import: optional:configserver:http://localhost:8888
+  datasource:
+    url: jdbc:mysql://localhost:3306/livraison
+    username: root
+    password: password
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
